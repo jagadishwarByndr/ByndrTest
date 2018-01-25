@@ -1,0 +1,6 @@
+framework module Pods_ByndrTestTests {
+  umbrella header "Pods-ByndrTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

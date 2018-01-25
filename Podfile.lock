@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.6.0)
+  - SwiftyJSON (4.0.0)
+  - XMSegmentedControl (0.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - SwiftyJSON
+  - XMSegmentedControl
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  XMSegmentedControl: 51cf4f3daf14920692a064d9252aa7b29622dda6
+
+PODFILE CHECKSUM: 0def2e46c799a845ff5ad62cd1becd9885bd6f6d
+
+COCOAPODS: 1.4.0

@@ -15,6 +15,22 @@
 		17A7C2D32015B5950062A291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A7C2D12015B5950062A291 /* LaunchScreen.storyboard */; };
 		17A7C2DE2015B5950062A291 /* ByndrTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C2DD2015B5950062A291 /* ByndrTestTests.swift */; };
 		17A7C2E92015B5950062A291 /* ByndrTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C2E82015B5950062A291 /* ByndrTestUITests.swift */; };
+		17A7C2F72015B93C0062A291 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A7C2F62015B93C0062A291 /* Images.xcassets */; };
+		17A7C2F92015BE790062A291 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C2F82015BE790062A291 /* StartPage.swift */; };
+		17A7C2FB2015C2740062A291 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C2FA2015C2740062A291 /* LoginScreen.swift */; };
+		17A7C2FD2015E39E0062A291 /* DontHaveAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C2FC2015E39E0062A291 /* DontHaveAccountScreen.swift */; };
+		784640EB85BB698184AAB75E /* Pods_ByndrTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966AA1265C172A1F7C8E7BBD /* Pods_ByndrTestUITests.framework */; };
+		7AE8F2E789509DE475B7A218 /* Pods_ByndrTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3B1F87146A337BEBA01B56 /* Pods_ByndrTestTests.framework */; };
+		A3325AB9201757CB0025070C /* UserScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3325AB8201757CB0025070C /* UserScreenVC.swift */; };
+		A3455829201A0A0D009C0719 /* NotReceivedMailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3455828201A0A0D009C0719 /* NotReceivedMailScreen.swift */; };
+		A39DBC14201A1B9A00F5F388 /* CoursesScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39DBC13201A1B9A00F5F388 /* CoursesScreenVC.swift */; };
+		A39DBC16201A1BB800F5F388 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39DBC15201A1BB800F5F388 /* HomeScreenVC.swift */; };
+		A39DBC18201A1BD200F5F388 /* LibraryScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39DBC17201A1BD200F5F388 /* LibraryScreenVC.swift */; };
+		A3A6FACE2018EFD1003391EF /* userDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6FACC2018EFD1003391EF /* userDetailsCell.swift */; };
+		A3A6FACF2018EFD1003391EF /* userDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A6FACD2018EFD1003391EF /* userDetailsCell.xib */; };
+		A3D3D556201890D500B76E13 /* LoginGetSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3D555201890D500B76E13 /* LoginGetSet.swift */; };
+		A3D3D5582018AF3900B76E13 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3D5572018AF3900B76E13 /* TabBar.swift */; };
+		FB32AE4F980DDA904D13A1BA /* Pods_ByndrTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B944F1229C625B3E9FA495 /* Pods_ByndrTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +65,28 @@
 		17A7C2E42015B5950062A291 /* ByndrTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ByndrTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A7C2E82015B5950062A291 /* ByndrTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByndrTestUITests.swift; sourceTree = "<group>"; };
 		17A7C2EA2015B5950062A291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A7C2F62015B93C0062A291 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17A7C2F82015BE790062A291 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		17A7C2FA2015C2740062A291 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		17A7C2FC2015E39E0062A291 /* DontHaveAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DontHaveAccountScreen.swift; sourceTree = "<group>"; };
+		1C79F8998A53510CE65E2CC2 /* Pods-ByndrTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByndrTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ByndrTestTests/Pods-ByndrTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		330B1788B6E187BEDD8BEAF6 /* Pods-ByndrTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByndrTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByndrTestUITests/Pods-ByndrTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CB79A9432E21E7C78BA09B7 /* Pods-ByndrTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByndrTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ByndrTestUITests/Pods-ByndrTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		966AA1265C172A1F7C8E7BBD /* Pods_ByndrTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByndrTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3325AB8201757CB0025070C /* UserScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScreenVC.swift; sourceTree = "<group>"; };
+		A3455828201A0A0D009C0719 /* NotReceivedMailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotReceivedMailScreen.swift; sourceTree = "<group>"; };
+		A39DBC13201A1B9A00F5F388 /* CoursesScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesScreenVC.swift; sourceTree = "<group>"; };
+		A39DBC15201A1BB800F5F388 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		A39DBC17201A1BD200F5F388 /* LibraryScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryScreenVC.swift; sourceTree = "<group>"; };
+		A3A6FACC2018EFD1003391EF /* userDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDetailsCell.swift; sourceTree = "<group>"; };
+		A3A6FACD2018EFD1003391EF /* userDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = userDetailsCell.xib; sourceTree = "<group>"; };
+		A3D3D555201890D500B76E13 /* LoginGetSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginGetSet.swift; sourceTree = "<group>"; };
+		A3D3D5572018AF3900B76E13 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		ACFCBDC18A4C8C879FFBEE1B /* Pods-ByndrTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByndrTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByndrTest/Pods-ByndrTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C7952A7666C7F6A9003DE762 /* Pods-ByndrTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByndrTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ByndrTest/Pods-ByndrTest.release.xcconfig"; sourceTree = "<group>"; };
+		E4379F428F02B56E2E3A59F0 /* Pods-ByndrTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByndrTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByndrTestTests/Pods-ByndrTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B944F1229C625B3E9FA495 /* Pods_ByndrTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByndrTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3B1F87146A337BEBA01B56 /* Pods_ByndrTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByndrTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB32AE4F980DDA904D13A1BA /* Pods_ByndrTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE8F2E789509DE475B7A218 /* Pods_ByndrTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				784640EB85BB698184AAB75E /* Pods_ByndrTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +120,13 @@
 		17A7C2B92015B5950062A291 = {
 			isa = PBXGroup;
 			children = (
+				A3D3D554201890B300B76E13 /* GetSetDetails */,
 				17A7C2C42015B5950062A291 /* ByndrTest */,
 				17A7C2DC2015B5950062A291 /* ByndrTestTests */,
 				17A7C2E72015B5950062A291 /* ByndrTestUITests */,
 				17A7C2C32015B5950062A291 /* Products */,
+				B316B2D8509716A6E89AEA4B /* Pods */,
+				2040F0F5E11AC079A28434AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +143,23 @@
 		17A7C2C42015B5950062A291 /* ByndrTest */ = {
 			isa = PBXGroup;
 			children = (
+				A39DBC12201A1B4F00F5F388 /* LibraryScreen */,
+				A39DBC11201A1B3900F5F388 /* HomeScreen */,
+				A39DBC10201A1B2600F5F388 /* CoursesScreen */,
+				A3A6FACB2018ECCA003391EF /* UserScreen */,
 				17A7C2C52015B5950062A291 /* AppDelegate.swift */,
 				17A7C2C72015B5950062A291 /* ViewController.swift */,
 				17A7C2C92015B5950062A291 /* Main.storyboard */,
 				17A7C2CF2015B5950062A291 /* Assets.xcassets */,
+				17A7C2F62015B93C0062A291 /* Images.xcassets */,
 				17A7C2D12015B5950062A291 /* LaunchScreen.storyboard */,
 				17A7C2D42015B5950062A291 /* Info.plist */,
 				17A7C2CC2015B5950062A291 /* ByndrTest.xcdatamodeld */,
+				17A7C2F82015BE790062A291 /* StartPage.swift */,
+				17A7C2FA2015C2740062A291 /* LoginScreen.swift */,
+				17A7C2FC2015E39E0062A291 /* DontHaveAccountScreen.swift */,
+				A3D3D5572018AF3900B76E13 /* TabBar.swift */,
+				A3455828201A0A0D009C0719 /* NotReceivedMailScreen.swift */,
 			);
 			path = ByndrTest;
 			sourceTree = "<group>";
@@ -128,6 +182,71 @@
 			path = ByndrTestUITests;
 			sourceTree = "<group>";
 		};
+		2040F0F5E11AC079A28434AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B944F1229C625B3E9FA495 /* Pods_ByndrTest.framework */,
+				FD3B1F87146A337BEBA01B56 /* Pods_ByndrTestTests.framework */,
+				966AA1265C172A1F7C8E7BBD /* Pods_ByndrTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A39DBC10201A1B2600F5F388 /* CoursesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A39DBC13201A1B9A00F5F388 /* CoursesScreenVC.swift */,
+			);
+			path = CoursesScreen;
+			sourceTree = "<group>";
+		};
+		A39DBC11201A1B3900F5F388 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A39DBC15201A1BB800F5F388 /* HomeScreenVC.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		A39DBC12201A1B4F00F5F388 /* LibraryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A39DBC17201A1BD200F5F388 /* LibraryScreenVC.swift */,
+			);
+			path = LibraryScreen;
+			sourceTree = "<group>";
+		};
+		A3A6FACB2018ECCA003391EF /* UserScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A3325AB8201757CB0025070C /* UserScreenVC.swift */,
+				A3A6FACC2018EFD1003391EF /* userDetailsCell.swift */,
+				A3A6FACD2018EFD1003391EF /* userDetailsCell.xib */,
+			);
+			path = UserScreen;
+			sourceTree = "<group>";
+		};
+		A3D3D554201890B300B76E13 /* GetSetDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A3D3D555201890D500B76E13 /* LoginGetSet.swift */,
+			);
+			path = GetSetDetails;
+			sourceTree = "<group>";
+		};
+		B316B2D8509716A6E89AEA4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACFCBDC18A4C8C879FFBEE1B /* Pods-ByndrTest.debug.xcconfig */,
+				C7952A7666C7F6A9003DE762 /* Pods-ByndrTest.release.xcconfig */,
+				E4379F428F02B56E2E3A59F0 /* Pods-ByndrTestTests.debug.xcconfig */,
+				1C79F8998A53510CE65E2CC2 /* Pods-ByndrTestTests.release.xcconfig */,
+				330B1788B6E187BEDD8BEAF6 /* Pods-ByndrTestUITests.debug.xcconfig */,
+				5CB79A9432E21E7C78BA09B7 /* Pods-ByndrTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A7C2ED2015B5950062A291 /* Build configuration list for PBXNativeTarget "ByndrTest" */;
 			buildPhases = (
+				316089CF091A5253D77D75CC /* [CP] Check Pods Manifest.lock */,
 				17A7C2BE2015B5950062A291 /* Sources */,
 				17A7C2BF2015B5950062A291 /* Frameworks */,
 				17A7C2C02015B5950062A291 /* Resources */,
+				91ADD76368B5A3A67136C17C /* [CP] Embed Pods Frameworks */,
+				F573CC00B458FF4272AC852C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A7C2F02015B5950062A291 /* Build configuration list for PBXNativeTarget "ByndrTestTests" */;
 			buildPhases = (
+				5E52919CDABC1F836D8758E1 /* [CP] Check Pods Manifest.lock */,
 				17A7C2D52015B5950062A291 /* Sources */,
 				17A7C2D62015B5950062A291 /* Frameworks */,
 				17A7C2D72015B5950062A291 /* Resources */,
+				94512823F1FB93D76CC214F1 /* [CP] Embed Pods Frameworks */,
+				97A468EB8E0F3AF22AD0367A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +295,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A7C2F32015B5950062A291 /* Build configuration list for PBXNativeTarget "ByndrTestUITests" */;
 			buildPhases = (
+				1A4140F56E77DB41EF675197 /* [CP] Check Pods Manifest.lock */,
 				17A7C2E02015B5950062A291 /* Sources */,
 				17A7C2E12015B5950062A291 /* Frameworks */,
 				17A7C2E22015B5950062A291 /* Resources */,
+				469136F9AAB388F7D7C11D9E /* [CP] Embed Pods Frameworks */,
+				9DD003763CF31F38396A9847 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +364,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A7C2D32015B5950062A291 /* LaunchScreen.storyboard in Resources */,
+				17A7C2F72015B93C0062A291 /* Images.xcassets in Resources */,
+				A3A6FACF2018EFD1003391EF /* userDetailsCell.xib in Resources */,
 				17A7C2D02015B5950062A291 /* Assets.xcassets in Resources */,
 				17A7C2CB2015B5950062A291 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +387,179 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A4140F56E77DB41EF675197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ByndrTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		316089CF091A5253D77D75CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ByndrTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		469136F9AAB388F7D7C11D9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ByndrTestUITests/Pods-ByndrTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E52919CDABC1F836D8758E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ByndrTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91ADD76368B5A3A67136C17C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ByndrTest/Pods-ByndrTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/XMSegmentedControl/XMSegmentedControl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMSegmentedControl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ByndrTest/Pods-ByndrTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94512823F1FB93D76CC214F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ByndrTestTests/Pods-ByndrTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A468EB8E0F3AF22AD0367A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ByndrTestTests/Pods-ByndrTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD003763CF31F38396A9847 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ByndrTestUITests/Pods-ByndrTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F573CC00B458FF4272AC852C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ByndrTest/Pods-ByndrTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17A7C2BE2015B5950062A291 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D3D5582018AF3900B76E13 /* TabBar.swift in Sources */,
 				17A7C2C82015B5950062A291 /* ViewController.swift in Sources */,
+				A3D3D556201890D500B76E13 /* LoginGetSet.swift in Sources */,
+				A3A6FACE2018EFD1003391EF /* userDetailsCell.swift in Sources */,
+				17A7C2F92015BE790062A291 /* StartPage.swift in Sources */,
 				17A7C2CE2015B5950062A291 /* ByndrTest.xcdatamodeld in Sources */,
+				A3325AB9201757CB0025070C /* UserScreenVC.swift in Sources */,
 				17A7C2C62015B5950062A291 /* AppDelegate.swift in Sources */,
+				A39DBC18201A1BD200F5F388 /* LibraryScreenVC.swift in Sources */,
+				A39DBC16201A1BB800F5F388 /* HomeScreenVC.swift in Sources */,
+				A3455829201A0A0D009C0719 /* NotReceivedMailScreen.swift in Sources */,
+				A39DBC14201A1B9A00F5F388 /* CoursesScreenVC.swift in Sources */,
+				17A7C2FD2015E39E0062A291 /* DontHaveAccountScreen.swift in Sources */,
+				17A7C2FB2015C2740062A291 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +723,11 @@
 		};
 		17A7C2EE2015B5950062A291 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACFCBDC18A4C8C879FFBEE1B /* Pods-ByndrTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2578FWTNK9;
 				INFOPLIST_FILE = ByndrTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = byndr.ByndrTest;
@@ -442,9 +739,11 @@
 		};
 		17A7C2EF2015B5950062A291 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7952A7666C7F6A9003DE762 /* Pods-ByndrTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2578FWTNK9;
 				INFOPLIST_FILE = ByndrTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = byndr.ByndrTest;
@@ -456,6 +755,7 @@
 		};
 		17A7C2F12015B5950062A291 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4379F428F02B56E2E3A59F0 /* Pods-ByndrTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +772,7 @@
 		};
 		17A7C2F22015B5950062A291 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C79F8998A53510CE65E2CC2 /* Pods-ByndrTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +789,7 @@
 		};
 		17A7C2F42015B5950062A291 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 330B1788B6E187BEDD8BEAF6 /* Pods-ByndrTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +805,7 @@
 		};
 		17A7C2F52015B5950062A291 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB79A9432E21E7C78BA09B7 /* Pods-ByndrTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
